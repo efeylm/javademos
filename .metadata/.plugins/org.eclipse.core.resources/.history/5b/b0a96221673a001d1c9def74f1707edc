@@ -1,0 +1,17 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number=24;
+		Boolean asalMi=false;
+		
+		for (int i = 0; i < number; i++) {
+			if (number%i==0) {
+				asalMi=true;
+			}
+		}
+	 System.out.println(asalMi);	
+	}
+
+}

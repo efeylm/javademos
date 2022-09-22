@@ -1,0 +1,11 @@
+package arkadasSayilar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 220yi bölen sayıların toplamı 284 , 284ü bölen sayıların toplamı 220dir (kendileri hariç).
+		//bu sayılar arkadaş sayılardır.
+
+	}
+
+}

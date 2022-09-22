@@ -1,0 +1,22 @@
+package sesliHarfler;
+
+public class Test {
+
+	public static void main(String[] args) {
+		char harf='A';
+		char[] sesliler= {'A','I','O','U','E','İ','Ö','Ü'};
+		
+		for (int i = 0; i < 4; i++) {
+			switch (sesliler[i]) {
+			case sesliler[i]:
+				
+				break;
+
+			default:
+				break;
+			}
+		}
+
+	}
+
+}

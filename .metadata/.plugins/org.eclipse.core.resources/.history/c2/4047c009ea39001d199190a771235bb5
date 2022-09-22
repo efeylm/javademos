@@ -1,0 +1,22 @@
+package variables;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int ogrenciSayisi=10;
+		String message="öğrenci sayısı:";
+		System.out.println(message+ogrenciSayisi);
+		
+		Boolean ogrenciMi=true;
+		char note='A';
+		double ortalama=87.5; 
+		float pb=87.5f;
+		
+	
+	
+	
+	
+	}
+
+}

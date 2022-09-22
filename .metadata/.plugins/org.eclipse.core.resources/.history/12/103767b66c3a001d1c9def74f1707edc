@@ -1,0 +1,21 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//mükemmel sayı= bölenleri toplamı sayının iki katıdır
+	 int sayi=6;
+	 int toplam=0;
+	 for (int i = 1; i <= sayi; i++) {
+		if (sayi%i==0) {
+			toplam=toplam+i;
+		}
+	}
+	 if (toplam==sayi*2) {
+		System.out.println("Mükemmel sayıdır");
+	} else {
+		System.out.println("Mükemmel sayı değildir");
+	}
+	}
+
+}
